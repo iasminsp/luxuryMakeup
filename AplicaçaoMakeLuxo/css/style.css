@@ -1,0 +1,72 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1a1901;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+button {
+    background-color: #0a30b9b7;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #08207a;
+}
+
+
+.makeup-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.makeup-item {
+    background-color: #f0f0f0cc;
+    border: 1px solid #371e2d;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.makeup-item:hover {
+    transform: scale(1.05);
+}
+
+.makeup-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.makeup-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 10px;
+}
